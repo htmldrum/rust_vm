@@ -1,7 +1,7 @@
-vagrant_vm
-==========
+rust_vm
+=======
 
-Vagrant VM for playing with latest vagrant builds.
+Vagrant VM for playing with latest Rust builds.
 
 Usage
 -----
@@ -10,6 +10,19 @@ Usage
     $ cd rails_vm
     $ vagrant up
     $ vagrant ssh
+
+TODO
+--------
+
+* Install deps from htmldrum/rust.git: Debian 5 ships with gcc 4.6.3
+
+``vagrant@vagrant:~$ gcc --version
+gcc (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3``
+``The selected GCC C++ compiler is not new enough to build LLVM. Please upgrade
+to GCC 4.7. You may pass --disable-compiler-version-checks to configure to
+bypass these sanity checks.
+configure: error: LLVM configure failed``
+
 
 Requires
 --------
